@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>QR code component | Frontend Mentor</title>
+  <style>
+    /* Box sizing rules */
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    /* Remove default margin */
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    p,
+    figure,
+    blockquote,
+    dl,
+    dd {
+      margin: 0;
+    }
+
+    /* Remove list styles on ul, ol elements with a list role */
+    ul[role='list'],
+    ol[role='list'] {
+      list-style: none;
+    }
+
+    /* Set core root defaults */
+    html:focus-within {
+      scroll-behavior: smooth;
+    }
+
+    /* Set core body defaults */
+    body {
+      min-height: 100vh;
+      text-rendering: optimizeSpeed;
+      line-height: 1.5;
+    }
+
+    /* A elements that don't have a class get default styles */
+    a:not([class]) {
+      text-decoration-skip-ink: auto;
+    }
+
+    /* Make images easier to work with */
+    img,
+    picture {
+      max-width: 100%;
+      display: block;
+    }
+
+    /* Inherit fonts for inputs and buttons */
+    input,
+    button,
+    textarea,
+    select {
+      font: inherit;
+    }
+
+    /* Remove animations for people who prefer reduced motion */
+    @media (prefers-reduced-motion: reduce) {
+      html:focus-within {
+        scroll-behavior: auto;
+      }
+
+      *,
+      *::before,
+      *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+      }
+    }
+
+    /* Utility classes  */
+    .flex {
+      display: flex;
+      gap: var(--gap, 1rem);
+    }
+
+    .grid {
+      display: grid;
+      gap: var(--gap, 1rem);
+    }
+
+    .container {
+      padding-inline: 2em;
+      margin-inline: auto;
+      max-width: 80rem;
+    }
+
+    /* screen reader only */
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    :root {
+      --clr-white: hsl(0, 0%, 100%);
+      --clr-slate-300: hsl(212, 45%, 89%);
+      --clr-slate-500: hsl(216, 15%, 34%);
+      --clr-slate-900: hsl(218, 44%, 22%);
+
+      --ff-outfit: "Outfit", sans-serif;
+
+    }
+
+    .main {
+      min-height: 100vh;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--clr-slate-300);
+      font-family: var(--ff-outfit);
+    }
+
+    .card {
+      background-color: var(--clr-white);
+      width: 20rem;
+      border-radius: .5rem;
+      padding: 1rem;
+      margin: 1rem;
+      box-shadow: 1px 1px 10px var(--clr-slate-500);
+    }
+
+    .card-image {
+      border-radius: .5rem;
+    }
+
+    .card-content {
+      padding-bottom: 1rem;
+    }
+
+    .card-content > * {
+      margin-top: 1rem;
+      text-align: center;
+    }
+
+    .card-title {
+      color: var(--clr-slate-900);
+    }
+
+    .card-info {
+      color: var(--clr-slate-500);
+    }
+  </style>
+</head>
+
+<body>
+  <main class="main flex">
+    <h1 class="sr-only">Frontend Mentor Projects</h1>
+    <div class="card">
+      <img class="card-image" src="images/image-qr-code.png" alt="QR Code direting towards Fronend Mentor website">
+      <div class="card-content">
+        <h2 class="card-title">Improve your front-end skills by building projects</h2>
+        <p class="card-info">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
