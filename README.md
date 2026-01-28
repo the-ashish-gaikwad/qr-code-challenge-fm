@@ -12,8 +12,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Github](https://github.com/the-ashish-gaikwad/qr-code-challenge-fm/)
-- Live Site URL: [Github Pages](https://the-ashish-gaikwad.github.io/qr-code-challenge-fm/)
+- Solution URL: [github.com/the-ashish-gaikwad/qr-code-challenge-fm/](https://github.com/the-ashish-gaikwad/qr-code-challenge-fm/)
+- Live Site URL: [https://the-ashish-gaikwad.github.io/qr-code-challenge-fm/](https://the-ashish-gaikwad.github.io/qr-code-challenge-fm/)
 
 ### Built with
 
