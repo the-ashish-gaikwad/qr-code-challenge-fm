@@ -2,17 +2,13 @@
 
 This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
+![](./images/screenshot.png)
+
 ## Table of contents
-
-
-- [Screenshot](#screenshot)
 - [Links](#links)
 - [Built with](#built-with)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
-
-
-![](./images/screenshot.png)
 
 ### Links
 
@@ -28,10 +24,10 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Andy Bell's Modern Reset
 - Mobile-first workflow
 
-## Author
+### Author
 
 - Frontend Mentor - [@the-ashish-gaikwad](https://www.frontendmentor.io/profile/the-ashish-gaikwad)
 
-## Acknowledgments
+### Acknowledgments
 
 A big thank you to Frontend Mentor for their well-organized resources and learning paths. It’s a fantastic platform for anyone looking to improve their web development skills through hands-on practice.
