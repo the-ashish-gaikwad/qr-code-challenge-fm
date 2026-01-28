@@ -28,4 +28,4 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Acknowledgments
 
-A big thank you to Frontend Mentor for their well-organized resources and learning paths. It’s a fantastic platform for anyone looking to improve their web development skills through hands-on practice.
+A big thank you to Frontend Mentor for their well-organized resources and learning path. It’s a fantastic platform for anyone looking to improve their web development skills through hands-on practice.
